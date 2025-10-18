@@ -33,7 +33,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 room-runtime = { group = "androidx.room", name= "room-runtime", version.ref = "room"}
 room-compiler = { group = "androidx.room", name= "room-compiler", version.ref = "room"}
 room-ktx = { group = "androidx.room", name= "room-ktx", version.ref = "room"}
-room-testing = { group = "androidx.room", name= "androidx.room:room-testing", version.ref = "room"}
+room-testing = { group = "androidx.room", name= "room-testing", version.ref = "room"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -41,3 +41,4 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+room = { id = "androidx.room", version.ref = "room"}
