@@ -21,5 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "OkSleuth"
 include(":app")
-include(":network")
-include(":database")
+include(":core:network")
+include(":core:database")
